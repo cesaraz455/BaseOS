@@ -1,1 +1,2 @@
-baseos.exe
+*.exe
+.vscode
