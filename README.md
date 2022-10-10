@@ -14,7 +14,7 @@ El programa usa una estructura de comandos similar a Linux, por lo que los coman
 ```
 baseos --function [params...]
 ```
-## 1. Función Ayuda
+### 1. Función Ayuda
 ![Imagen de ejecución de la función ayuda](/images/help.png)
 
 ### 2. Función Tiempo
