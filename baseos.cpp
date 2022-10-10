@@ -110,6 +110,7 @@ void deleteProcess(int pid){
     HANDLE handy;
 	handy =OpenProcess(SYNCHRONIZE|PROCESS_TERMINATE, TRUE,pid);
 	TerminateProcess(handy,0);
+    cout << "El proceso con el PID " << pid << " fue eliminado satisfactoriamente." << endl;
 }
 
 int main(int argc, char const *argv[]){
